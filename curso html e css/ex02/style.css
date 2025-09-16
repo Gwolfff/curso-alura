@@ -1,6 +1,16 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: black;
     color: white;
+}
+
+
+.titulo-destaque {
+    color: #22d4fd;
 }
