@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.responsividade-conteiner {
+    background-color: blue;
+    color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin-left: 10px;
+}
+
+a {
+    background-color: rgb(170, 0, 255);
+    color: rgb(0, 255, 191);
+    text-decoration: none;
+    font-weight: bolder; 
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid rgb(237, 11, 249);
+    border-radius: 10px;
+    
+
+    display: inline-block;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    border: 5px solid aquamarine;
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner {
+
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}

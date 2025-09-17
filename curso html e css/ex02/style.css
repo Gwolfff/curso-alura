@@ -6,12 +6,18 @@
 }
 
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
     color: white;
-    height: 100vh;
 }
 
 
 .titulo-destaque {
     color: #22d4fd;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
 }

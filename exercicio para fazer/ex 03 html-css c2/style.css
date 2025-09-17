@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner {
+    margin: 10px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: underline;
+    text-align: justify;
+    margin-right: 20px;
+}
