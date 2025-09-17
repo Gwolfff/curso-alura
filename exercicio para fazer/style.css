@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo-blog {
+    background-color: black;
+    color: white;
+    margin: 20px 20px 5px 20px;
+    padding: 10px;
+}
+
+.titulo-destaque {
+    background-color: rgb(240, 128, 128);
+    color: rgb(247, 255, 3);
+    margin: 5px 20px 5px 20px;
+    padding: 10px;
+}
+
+.urgente {
+    background-color: red;
+    color: white;
+    margin: 5px 20px 5px 20px;
+    padding: 10px;
+}
+
+.texto-mudanca {
+    background-color: rgba(32, 178, 171, 0.552);
+    color: rgb(25, 0, 255);
+    margin: 5px 20px 5px 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+
+/*
+        Utilizar classes no HTML e CSS;
+        Boas práticas na criação das classes;
+        Posicionamento de elementos com CSS;
+        Importância de resetar o padrão do CSS;
+        Testar os elementos da página inspecionando via ferramenta de desenvolvimento;
+        Box model (margin, border e padding);
+        Diferentes seletores CSS.
+
+
+*/
