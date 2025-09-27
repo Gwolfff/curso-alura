@@ -39,6 +39,7 @@ body {
 }
 
 .cabecalho-menu {
+    display: flex;
     padding: 25px;
 }
 
@@ -46,13 +47,14 @@ body {
     font-family: var(--font-primaria);
     font-size: 23px;
     color: var(--cor-secundaria);
-    padding: 10px;
     text-decoration: none;
+    margin: 10px;
 }
 
 .cabecalho-menu-link:hover {
     background-color: rgba(255, 255, 255, 0.174);
     color: var(--cor-hover);
+    padding: 4px;
     border-radius: 10px;
     transition: .5s;
 }
@@ -95,4 +97,8 @@ body {
     font-family: var(--font-secundaria);
     font-weight: 600;
     font-size: 16px;
+}
+
+@media (max-width: 1220px) {
+    
 }
