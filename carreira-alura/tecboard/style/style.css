@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0E1014;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: "Unbounded", sans-serif;
+}
+
+p {
+    font-family: "poppins", arial;
+}
+
+h1 span {
+    color: #9747FF;
+}
