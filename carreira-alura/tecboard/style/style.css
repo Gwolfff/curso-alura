@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "unbounded";
+    src: url("../fonts/Unbounded-Bold.ttf") format(truetype);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url("../fonts/Poppins-Regular.ttf") format(truetype);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,13 +27,31 @@ body {
 }
 
 h1 {
+    font-size: 85px;
     font-family: "Unbounded", sans-serif;
+
 }
 
 p {
     font-family: "poppins", arial;
+    font-size: 32px;
+    margin-bottom: 40px;
 }
 
 h1 span {
     color: #9747FF;
+}
+
+a {
+    color: #FFFFFF;
+    font-family: "poppins", sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+    background-color: #9747FF;
+    width: 340px;
+    height: 66px;
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 36px;
 }
