@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Definiçao de fontes */
 @font-face {
     font-family: "unbounded";
     src: url("../fonts/Unbounded-Bold.ttf") format(truetype);
@@ -16,26 +17,37 @@
     font-display: swap;
 }
 
+/* Reset */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Inicio Desktop */
 body {
     background-color: #0E1014;
     color: #FFFFFF;
 }
 
-h1 {
-    font-size: 85px;
-    font-family: "Unbounded", sans-serif;
+header img {
+    display: block;
+    margin: 75px 0 0 360px;
+}
 
+h1 {
+    font-size: 64px;
+    font-family: "Unbounded", sans-serif;
+    text-align: center;
+    margin-top: 60px;
 }
 
 p {
     font-family: "poppins", arial;
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: 40px;
+    text-align: center;
+    margin: 24px auto 0;
+    width: 792px;
 }
 
 h1 span {
@@ -45,7 +57,7 @@ h1 span {
 a {
     color: #FFFFFF;
     font-family: "poppins", sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     text-decoration: none;
     background-color: #9747FF;
     width: 340px;
@@ -54,4 +66,53 @@ a {
     text-align: center;
     line-height: 66px;
     border-radius: 36px;
+    margin: 40px auto;
+}
+
+a:hover {
+    background-color: #8233E8;
+}
+
+section img {
+    display: block;
+    width: 792px;
+    height: 446px;
+    margin: 0 auto;
+}
+
+@media(max-width: 768px) {
+
+    header img {
+        margin: 65px 0 0 60px;
+    }
+
+    p {
+        width: 648px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    header img {
+        margin: 32px 0 0 16px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        width: 340px;
+    }
+
+    a {
+        font-size: 20px;
+        width: 251px;
+    }
+
+    section img {
+        width: 340px;
+        height: 230px;
+    }
 }
