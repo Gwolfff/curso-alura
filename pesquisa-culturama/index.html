@@ -15,10 +15,10 @@
     <main>
         <header>
             <img src="img/logo-culturama.png" alt="logo culturama">
-            <h1>Pesquisa Online</h1>
+            <h1>Pesquisa de opinião</h1>
         </header>
         <section>
-            <form action="" method="get">
+            <form action="sucesso.html" method="get">
                 <!--DADOS PESSOAIS-->
                  <fieldset>
                     <legend>DADOS PESSOAIS</legend>
@@ -32,11 +32,11 @@
                     <label for="birthDate">Data de Nascimento:</label>
                     <input id="birthDate" type="date" name="userBirthDate">
                     <br>
-                    <label for="email">EMail:</label>
+                    <label for="email">Email:</label>
                     <input id="email" type="email" name="userEmail" required>
                     <br>
                     <label for="phoneNumber">Telefone:</label>
-                    <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[09]{11}" placeholder="DDD + número sem espaços ou hífen">
+                    <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + número sem espaços ou hífen">
                     <br>
                     <label for="image">Upload de foto:</label>
                     <input id="image" type="file" name="userImage" accept="image/*">

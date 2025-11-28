@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Fjalla one", sans-serif;
+    font-size: 30px;
+}
